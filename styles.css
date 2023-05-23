@@ -1,4 +1,16 @@
 body {
-    color: pink;
+  background-color: #FAF1EB;
+    color: #FA6096;
     font-family: 'Darker Grotesque', sans-serif;
   }
+
+  h1 {
+    font-weight: 900;
+  }
+
+  h2 {
+    color: #FFA45B;
+    font-weight: 500;
+  }
+
+  /* #fcd4c8 lt pink for containers */
