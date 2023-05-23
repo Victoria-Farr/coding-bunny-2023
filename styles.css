@@ -1,32 +1,37 @@
 body {
-  background-color: #FAF1EB;
-    color: #FA6096;
+  background-color: #fcf6f2;
+    color: #1f049f;
     font-family: 'Darker Grotesque', sans-serif;
   }
 
   h1 {
-    font-weight: 500;
-    font-size: 5em;
+    font-weight: 400;
+    font-size: 7em;
+    color: #f1c9cc;
+    font-family: 'Silkscreen', cursive;
   }
 
   h2 {
-    color: #FFA45B;
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 300;
   }
 
   h3 {
+    color: #f92765;
     font-weight: 400;
-    font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
     font-size: 2em;
-    text-shadow: 2px 2px 5px #ff775e;
+    font-family: 'Silkscreen', cursive;
   }
 
   p {
-    font-size: 	2em;
+    font-size: 	1.5em;
     font-weight: 400;
   }
 
+  a {
+    color: #d8e021;
+  }
 
-  /* #fcd4c8 lt pink for containers */
+
+  /* color scheme: https://huemint.com/website-3/#palette=fcf6f2-f1c9cc-f4cdb5-1f049f-f92765-d8e021 */
