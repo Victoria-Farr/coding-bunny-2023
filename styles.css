@@ -6,11 +6,18 @@ body {
 
   h1 {
     font-weight: 900;
+    font-size: 2.5em; /* 40px/16=2.5em */
   }
 
   h2 {
     color: #FFA45B;
+    font-size: 1.875em; /* 30px/16=1.875em */
     font-weight: 500;
   }
+
+  p {
+    font-size: 	1.1250em;
+  }
+
 
   /* #fcd4c8 lt pink for containers */
