@@ -5,36 +5,33 @@ body {
   }
 
   h1 {
-    font-weight: 400;
+    font-weight: 900;
     font-size: 7em;
     color: #f1c9cc;
     opacity: 0.5;
-    font-family: 'Silkscreen', cursive;
   }
 
   h2 {
     font-size: 6em;
-    font-weight: 300;
+    font-weight: 800;
   }
 
   h3 {
-    color: #d8e021;
-    font-weight: 400;
+    color: #f4cdb5;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 2em;
-    font-family: 'Silkscreen', cursive;
+    font-size: 5em;
   }
 
   h4 {
     color: #f92765;
-    font-weight: 400;
-    font-size: 2em;
-    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 4em;
   }
 
   p {
-    font-size: 	1.5em;
-    font-weight: 400;
+    font-size: 	2em;
+    font-weight: 500;
   }
 
   a {
