@@ -8,6 +8,7 @@ body {
     font-weight: 400;
     font-size: 7em;
     color: #f1c9cc;
+    opacity: 0.5;
     font-family: 'Silkscreen', cursive;
   }
 
@@ -17,11 +18,18 @@ body {
   }
 
   h3 {
-    color: #f92765;
+    color: #d8e021;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 2em;
     font-family: 'Silkscreen', cursive;
+  }
+
+  h4 {
+    color: #f92765;
+    font-weight: 400;
+    font-size: 2em;
+    font-family: 'Darker Grotesque', sans-serif;
   }
 
   p {
