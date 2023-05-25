@@ -42,5 +42,11 @@ body {
     color: #d8e021;
   }
 
+  a:hover {
+    color: #f92765;
+  }
+
+
+
 
   /* color scheme: https://huemint.com/website-3/#palette=fcf6f2-f1c9cc-f4cdb5-1f049f-f92765-d8e021 */
