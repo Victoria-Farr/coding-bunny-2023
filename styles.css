@@ -46,6 +46,10 @@ body {
     color: #f92765;
   }
 
+  a:active {
+    color: #1f049f;
+  }
+
 
 
 
