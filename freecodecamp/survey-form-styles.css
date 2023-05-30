@@ -1,6 +1,7 @@
 body {
-    font-family: 'Roboto Mono', monospace;
     background-color: darkgray;
+    background-image: url("images/pexels-james-wheeler-1542493.jpg");
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1, h2 {
