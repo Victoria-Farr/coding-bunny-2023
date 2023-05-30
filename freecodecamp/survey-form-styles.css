@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: darkgray;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+img {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
