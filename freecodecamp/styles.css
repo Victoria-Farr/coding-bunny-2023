@@ -28,3 +28,21 @@ img {
     margin-right: auto;
     margin-top: 60px;
 }
+
+form {
+    background-color: #F4F5F6;
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    }

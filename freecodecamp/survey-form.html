@@ -12,14 +12,19 @@
     </head>
 
     <header>
-        <img src="images/fcc_primary_large.svg">
+        <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.svg">
         <h1 id="title">Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform!</p>
     </header>
 
     <body>
         <form id="survey-form">
-
+            <fieldset>
+                <label for="name">Name <input id="name" name="name" type="text" required /></label>
+                <label for="email">Email <input id="email" name="email" type="text" required /></label>
+                <label for="age">Age (optional) <input id="age" name="age" type="number" /></label>
+                <label for="current-role">Which option best describes your current role?</label>
+            </fieldset>
         </form>
     </body>
 
