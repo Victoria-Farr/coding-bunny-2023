@@ -5,7 +5,7 @@ body {
     background-size: cover;
     font-family: 'Roboto Mono', monospace;
     width: 100%;
-height: 100vh;
+    height: 100vh;
 }
 
 h1, p {
@@ -18,10 +18,10 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1em;
     font-style: italic;
     font-weight: 400;
-    color: blueviolet;
+    color: black;
 }
 
 img {
@@ -44,9 +44,16 @@ form {
 
 fieldset {
     border: none;
+    padding 5rem 0;
 }
 
 label {
     display: block;
     margin: 0.5rem 0;
     }
+
+input {
+    display: inline-block;
+}
+
+

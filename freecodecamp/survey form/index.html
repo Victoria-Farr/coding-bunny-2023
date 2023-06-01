@@ -21,10 +21,11 @@
         <form id="survey-form" action="https://register-demo.freecodecamp.org">
             <!-- form section 1-->
             <fieldset>
-                <label for="name">Name <input id="name" type="text" name="name" required /></label>
-                <label for="email">Email <input id="email" type="email" name="email" required /></label>
-                <label for="age">Age (optional) <input id="age" type="number" name="age" min="13" max="120"/></label>
-                <label>Which option best describes your current role?
+                <label for="name">Name </label><input id="name" type="text" name="name" required />
+                <label for="email">Email </label><input id="email" type="email" name="email" required />
+                <label for="age">Age (optional) </label><input id="age" type="number" name="age" min="13" max="120"/>
+                <p>Which option best describes your current role?</p>
+                <label>
                     <select>
                         <option value="">(Select one)</option>
                         <option value="1">Student</option> 
@@ -96,9 +97,8 @@
 
             <!-- form section 4-->
             <fieldset>
-                <label for="comments">Any comments or suggestions? 
-                    <textarea id="comments" rows="3" cols="30" placeholder="Share your thoughts!"></textarea>
-                </label>
+                <label for="comments">Any comments or suggestions? </label>
+                <textarea id="comments" rows="5" cols="50" placeholder="Share your thoughts!"></textarea>
 
                 <label for="submit"><input id="submit" type="submit" value="Submit"/></label>
             </fieldset>
