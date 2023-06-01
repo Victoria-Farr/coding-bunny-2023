@@ -28,7 +28,17 @@
 
                 <label for="age">Age (optional) <input id="age" type="number" name="age" min="13" max="120"/></label>
 
-                <label for="current-role">Which option best describes your current role? <input id="current-role" required /></label>
+                <label>Which option best describes your current role?
+                    <select>
+                        <option value="">(Select one)</option>
+                        <option value="1">Student</option> 
+                        <option value="2">Hobbyist</option> 
+                        <option value="3">Professional</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+
+
             </fieldset>
 
             <!-- form section 2-->
@@ -38,7 +48,17 @@
                 <label for="maybe"><input id="maybe" type="radio" name="recommend-answer" /> Maybe...</label>
                 <label for="no"><input id="no" type="radio" name="recommend-answer" /> No</label>
 
-                <label for="favorite-feature">What is your favorite feature of freeCodeCamp? <input id="favorite-feature" /></label>
+                <label>What is your favorite feature of freeCodeCamp?
+                    <select>
+                        <option value="">(Select one)</option>
+                        <option value="1">Certification courses</option> <!--certification courses-->
+                        <option value="2">Tutorial videos</option> <!--tutorials-->
+                        <option value="3">Blog articles</option> <!--articles-->
+                        <option value="4">Community message boards</option>
+                        <option value="5">Other</option>
+                    </select>
+                </label>
+
             </fieldset>
             <!-- form section 3-->
             <fieldset>
