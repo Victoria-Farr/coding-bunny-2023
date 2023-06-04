@@ -31,9 +31,10 @@
                 <label for="number-label" id="number-label">
                 <label for="number">Age (optional) </label><input id="number" type="number" name="age" min="13" max="120" placeholder="Age"/></label>
 
+                <fieldset>
                 <p>Which option best describes your current role?</p>
                 <label>
-                    <select>
+                    <select id="dropdown">
                         <option value="">(Select one)</option>
                         <option value="1">Student</option> 
                         <option value="2">Hobbyist</option> 
@@ -41,6 +42,7 @@
                         <option value="4">Other</option>
                     </select>
                 </label>
+                </fieldset>
             </fieldset>
 
             <!-- form section 2-->
@@ -66,40 +68,44 @@
             <!-- form section 3-->
             <fieldset>
                 <p>What would you like to see improved? (Check all that apply)</p>
-
-                <input type="checkbox" id="improve1" name="improve1" value="Front-End projects"/>
-                <label for="improve1"> Front-end projects</label><br>
-
-                <input type="checkbox" id="improve2" name="improve2" value="Back-End projects"/>
-                <label for="improve2"> Back-End projects</label><br>
-
-                <input type="checkbox" id="improve3" name="improve3" value="Data visualization"/>
-                <label for="improve3"> Data visualization</label><br>
-
-                <input type="checkbox" id="improve4" name="improve4" value="Challenges"/>
-                <label for="improve4"> Challenges</label><br>
-
-                <input type="checkbox" id="improve5" name="improve5" value="Open-source community"/>
-                <label for="improve5"> Open-source community</label><br>
-
-                <input type="checkbox" id="improve6" name="improve6" value="Git help rooms"/>
-                <label for="improve6"> Open-source community</label><br>
-
-                <input type="checkbox" id="improve7" name="improve7" value="Videos & tutorials"/>
-                <label for="improve7"> Open-source community</label><br>
-
-                <input type="checkbox" id="improve8" name="improve8" value="IRL meetups"/>
-                <label for="improve8"> Open-source community</label><br>
-
-                <input type="checkbox" id="improve9" name="improve9" value="Wiki resources"/>
-                <label for="improve9"> Wiki resources</label><br>
-
-                <input type="checkbox" id="improve10" name="improve10" value="freeCodeCamp forums"/>
-                <label for="improve10"> freeCodeCamp forums</label><br>
-
-                <input type="checkbox" id="improve11" name="improve11" value="Additional courses"/>
-                <label for="improve11"> Additional courses</label><br>
-
+            <div>
+                <label for="improve1"><input type="checkbox" id="improve1" name="improve1" value="Front-End projects" /> Front-end projects</label>
+            </div>    
+            <div>
+                <label for="improve2"><input type="checkbox" id="improve2" name="improve2" value="Back-End projects" /> Back-End projects</label>
+            </div>
+            <div>
+                <label for="improve3"><input type="checkbox" id="improve3" name="improve3" value="Data visualization" /> Data visualization</label>
+            </div>
+            <div>
+                <label for="improve4"><input type="checkbox" id="improve4" name="improve4" value="Challenges" /> Challenges</label>
+            </div>   
+            <div>
+                <label for="improve5"><input type="checkbox" id="improve5" name="improve5" value="Open-source community" /> Open-source community
+                </label>
+            </div>
+            <div>
+                <label for="improve6"><input type="checkbox" id="improve6" name="improve6" value="Git help rooms"/> Git help rooms
+                </label>
+            </div>
+            <div>
+                <label for="improve7">
+                    <input type="checkbox" id="improve7" name="improve7" value="Videos"/>  Videos</label>
+            </div>
+            <div>
+                <label for="improve8"><input type="checkbox" id="improve8" name="improve8" value="IRL meetups"/> IRL meetups</label>
+            </div>
+            <div>
+                <label for="improve9"><input type="checkbox" id="improve9" name="improve9" value="Wiki resources"/> Wiki resources</label>
+            </div>
+            <div>
+                <label for="improve10"><input type="checkbox" id="improve10" name="improve10" value="freeCodeCamp forums"/> freeCodeCamp forums
+                </label>
+            </div>
+            <div>
+                <label for="improve11"><input type="checkbox" id="improve11" name="improve11" value="Additional courses"/> Additional courses
+                </label>
+            </div>
             </fieldset>
 
             <!-- form section 4-->
