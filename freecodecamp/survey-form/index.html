@@ -10,29 +10,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     </head>
-
     <header>
         <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.svg">
         <h1 id="title">Survey Form</h1>
         <h2 id="description">Thank you for taking the time to help us improve the platform!</h2>
     </header>
-
     <body>
         <form id="survey-form" action="https://register-demo.freecodecamp.org">
-            <!-- form section 1-->
             <fieldset>
-
                 <label for="name-label" id="name-label">
                 <label for="name">Name </label><input id="name" type="text" name="name" required placeholder="Enter your name"/></label>
-
                 <label for="email-label" id="email-label">
                 <label for="email">Email </label><input id="email" type="email" name="email" required placeholder="Enter your email"/></label>
-                
                 <label for="number-label" id="number-label">
                 <label for="number">Age (optional) </label><input id="number" type="number" name="age" min="13" max="120" placeholder="Age"/></label>
-
                 <hr>
-
                 <p>Which option best describes your current role?</p>
                 <label>
                     <select id="dropdown">
@@ -42,30 +34,26 @@
                         <option value="3">Professional</option>
                         <option value="4">Other</option>
                     </select>
-                </label>
+                </label><hr>
             </fieldset>
-
-            <!-- form section 2-->
             <fieldset>
                 <p>Would you recommend freeCodeCamp to a friend?</p>
                 <label for="yes"><input id="yes" type="radio" name="recommend-answer" value="Yes"/> Yes</label>
                 <label for="maybe"><input id="maybe" type="radio" name="recommend-answer" value="Maybe..."/> Maybe...</label>
                 <label for="no"><input id="no" type="radio" name="recommend-answer" value="No"/> No</label>
-
+                <hr>
                 <label>What is your favorite feature of freeCodeCamp?
                     <select>
                         <option value="">(Select one)</option>
-                        <option value="1">Certification courses</option> <!--certification courses-->
-                        <option value="2">Tutorial videos</option> <!--tutorials-->
-                        <option value="3">Blog articles</option> <!--articles-->
+                        <option value="1">Certification courses</option>
+                        <option value="2">Tutorial videos</option>
+                        <option value="3">Blog articles</option>
                         <option value="4">Community message boards</option>
                         <option value="5">Other</option>
                     </select>
                 </label>
-
+                <hr>
             </fieldset>
-            
-            <!-- form section 3-->
             <fieldset>
                 <p>What would you like to see improved? (Check all that apply)</p>
             <div>
@@ -105,21 +93,15 @@
             <div>
                 <label for="improve11"><input type="checkbox" id="improve11" name="improve11" value="Additional courses"/> Additional courses
                 </label>
-            </div>
+            </div><hr>
             </fieldset>
-
-            <!-- form section 4-->
             <fieldset>
                 <label for="comments">Any comments or suggestions? </label>
                 <textarea id="comments" rows="5" cols="50" placeholder="Share your thoughts!"></textarea>
-
                 <label for="submit"><input id="submit" type="submit" value="Submit"/></label>
             </fieldset>
-
         </form>
     </body>
-
     <footer>
-        <p>Site credits placeholder text</p>
     </footer>
 </html>
