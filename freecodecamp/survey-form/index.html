@@ -21,9 +21,14 @@
         <form id="survey-form" action="https://register-demo.freecodecamp.org">
             <!-- form section 1-->
             <fieldset>
+
+                <label for="name-label" id="name-label">
                 <label for="name">Name </label><input id="name" type="text" name="name" required />
+                </label>
+
                 <label for="email">Email </label><input id="email" type="email" name="email" required />
                 <label for="number">Age (optional) </label><input id="number" type="number" name="age" min="13" max="120"/>
+
                 <p>Which option best describes your current role?</p>
                 <label>
                     <select>
@@ -39,7 +44,7 @@
             <!-- form section 2-->
             <fieldset>
                 <p>Would you recommend freeCodeCamp to a friend?</p>
-                <label for="yes"><input id="yes" type="radio" name="recommend-answer" /> Yes!</label>
+                <label for="yes"><input id="yes" type="radio" name="recommend-answer" value="Yes"/> Yes</label>
                 <label for="maybe"><input id="maybe" type="radio" name="recommend-answer" /> Maybe...</label>
                 <label for="no"><input id="no" type="radio" name="recommend-answer" /> No</label>
 
