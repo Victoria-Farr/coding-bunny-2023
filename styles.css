@@ -66,8 +66,11 @@ body {
 
   .alias {
     cursor: alias;
+    display: inline;
   }
-  .all-scroll {cursor: all-scroll;}
+  .all-scroll {cursor: all-scroll;
+    display: inline;
+  }
   .auto {cursor: auto;}
   .cell {cursor: cell;}
   .col-resize {cursor: col-resize;}
