@@ -35,6 +35,9 @@ body {
     font-size: 2.5em;
   }
 
+  hr {
+    border-top: 1px dotted #f1c9cc;
+  }
   p {
     color: #1a0008;
     font-size: 	2em;
