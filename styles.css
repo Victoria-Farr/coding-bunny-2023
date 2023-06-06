@@ -104,10 +104,21 @@ body {
   .se-resize {cursor: se-resize;}
   .sw-resize {cursor: sw-resize;}
   .text {cursor: text;}
-  .url {cursor: url(freecodecamp/icons8-heart-50.cur),auto;}
-  .url2 {cursor: url(freecodecamp/icons8-smile-50.cur),auto;}
   .w-resize {cursor: w-resize;}
   .wait {cursor: wait;}
   .zoom-in {cursor: zoom-in;}
   .zoom-out {cursor: zoom-out;}
   
+  /* custom URL cursors */
+  .url {cursor: url(freecodecamp/icons8-heart-50.cur),auto;}
+  .url2 {cursor: url(freecodecamp/icons8-smile-50.cur),auto;}
+  .url-wink {cursor: url(freecodecamp/icons8-wink-50.cur),auto;}
+
+  /* custom URL cursor name experiment */
+  .url-v {cursor: url(freecodecamp/icons8-sign-language-v-50.cur),auto;
+    text-decoration: none;}
+  .url-i {cursor: url(freecodecamp/icons8-sign-language-i-50.cur),auto;
+    text-decoration: none;}
+  .url-c {cursor: url(freecodecamp/icons8-sign-language-c-50.cur),auto;
+    text-decoration: none;}
+
