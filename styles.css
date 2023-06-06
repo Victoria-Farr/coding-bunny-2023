@@ -38,6 +38,7 @@ body {
   hr {
     border-top: 1px dotted #f1c9cc;
   }
+
   p {
     color: #1a0008;
     font-size: 	2em;
@@ -63,7 +64,7 @@ body {
 
 
 
-  /* color scheme: https://huemint.com/website-3/#palette=fcf6f2-f1c9cc-f4cdb5-1f049f-f92765-d8e021 */
+  /* color scheme via Huemint: https://huemint.com/website-3/#palette=fcf6f2-f1c9cc-f4cdb5-1f049f-f92765-d8e021 */
 
   /* Cursor Property Fun */
 
