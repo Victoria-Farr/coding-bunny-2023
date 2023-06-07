@@ -51,6 +51,10 @@ body {
     color: #1f049f;
   }
 
+  footer {
+    margin: 50px;
+  }
+
   ul {
     list-style-type: none;
   }
@@ -111,3 +115,19 @@ body {
     text-decoration: none;}
   .url-c {cursor: url(freecodecamp/icons8-sign-language-c-50.cur),auto;
     text-decoration: none;}
+
+    /* You stay CLASSy, San Diego! */
+
+    .back-button {
+      background-color: gold;
+      color: #333333;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 60px;
+    }
+
+    .back-button:hover {
+      background-color: lightgray;
+      color: #333333;
+      border-radius: 60px;
+    }
