@@ -1,58 +1,49 @@
 body {
   background-color: #fffce5;
+  color: #333333;
   font-family: 'Azeret Mono', monospace;
   }
 
   h1 {
     font-weight: 900;
-    font-size: 5em;
-    color: #f1c9cc;
-    opacity: 0.5;
+    font-size: 3em;
     text-transform: uppercase;
     margin: 0 auto;
-    line-height: 1em;
   }
 
   h2 {
-    color: #f4cdb5;
-    font-size: 3em;
-    font-weight: 800;
-    text-transform: uppercase;
-
+    font-size: 2em;
+    font-weight: 400;
   }
 
   h3 {
-    color: #f4cdb5;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 3em;
   }
 
-  h4 {
-    color: #f92765;
-    font-weight: 600;
-    font-size: 2.5em;
+  hr {
+    border-top: 1px dotted goldenrod;
   }
 
-  hr {
-    border-top: 1px dotted #f1c9cc;
+  img {
+    margin: 50px;
   }
 
   p {
-    color: #1a0008;
-    font-size: 	2em;
+    font-size: 	1.5em;
     font-weight: 500;
   }
 
   a {
-    color: #d8e021;
+    color: gold;
     text-decoration-style: dashed;
   }
 
   a:hover {
-    color: #f92765;
-    text-decoration-style: wavy;
-    text-decoration-color: #190108;
+    color: gold;
+    text-decoration-style: double;
+    text-decoration-color: #333333;
   }
 
   a:active {
