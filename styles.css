@@ -1,12 +1,11 @@
 body {
-  background-color: #fcf6f2;
-    color: #1f049f;
+  background-color: #fffce5;
     font-family: 'Darker Grotesque', sans-serif;
   }
 
   h1 {
     font-weight: 900;
-    font-size: 8em;
+    font-size: 5em;
     color: #f1c9cc;
     opacity: 0.5;
     text-transform: uppercase;
@@ -63,11 +62,6 @@ body {
   ul {
     list-style-type: none;
   }
-
-
-
-
-  /* color scheme via Huemint: https://huemint.com/website-3/#palette=fcf6f2-f1c9cc-f4cdb5-1f049f-f92765-d8e021 */
 
   /* Cursor Property Fun */
 
