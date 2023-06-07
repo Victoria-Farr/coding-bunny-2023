@@ -47,10 +47,13 @@ body {
 
   a {
     color: #d8e021;
+    text-decoration-style: dashed;
   }
 
   a:hover {
     color: #f92765;
+    text-decoration-style: wavy;
+    text-decoration-color: #F1C9CC;
   }
 
   a:active {
