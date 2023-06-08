@@ -68,6 +68,10 @@ p {
     line-height: 35px;
   }
 
+  span a {
+    color: magenta;
+  }
+  
 /* Cursor Property Fun */
 
 .alias {
@@ -141,6 +145,3 @@ p {
       border-radius: 60px;
     }
 
-   span a {
-      color: magenta;
-    }
