@@ -140,3 +140,7 @@ p {
       color: #333333;
       border-radius: 60px;
     }
+
+   span a {
+      color: magenta;
+    }
