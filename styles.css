@@ -33,9 +33,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 300;
     margin-left: 2rem;
+    line-height: 1.5em;
 }
 
 h3 {
