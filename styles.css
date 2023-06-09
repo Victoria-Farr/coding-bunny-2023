@@ -73,10 +73,16 @@ p {
     color: magenta;
   }
 
-  .courses {
-    display: flex;
-  }
-  
+/* CLASSES */
+
+.courses {
+  display: flex;
+}
+
+.fcc-projects {
+  display: flex;
+}
+
 /* Cursor Property Shenanigans */
 
 .alias {
