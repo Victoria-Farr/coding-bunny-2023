@@ -2,6 +2,7 @@ body {
   background-color: #fffce5;
   color: #333333;
   font-family: 'Azeret Mono', monospace;
+  margin-left: 2rem;
   }
 
   a {
@@ -29,13 +30,11 @@ h1 {
     font-weight: 900;
     font-size: 3em;
     text-transform: uppercase;
-    margin-left: 2rem;
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: 300;
-    margin-left: 2rem;
     line-height: 1.5em;
 }
 
@@ -55,14 +54,9 @@ hr {
   margin-bottom: 80px;
 }
 
-img {
-    margin: 50px;
-  }
-
 p {
     font-size: 	1.5em;
     font-weight: 500;
-    margin-left: 50px;
   }
 
   ul {
