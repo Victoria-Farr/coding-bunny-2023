@@ -85,6 +85,7 @@ p {
 
 .fcc-projects {
   display: flex;
+  margin-top: 100px;
 }
 
 .fcc-projects img {
