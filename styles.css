@@ -8,6 +8,7 @@ body {
   a {
     color: gold;
     text-decoration-style: dashed;
+    font-weight: 500;
   }
 
   a:hover {
@@ -74,9 +75,31 @@ p {
   display: flex;
 }
 
+.courses h2 {
+  max-width: 400px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 25px;
+  margin-right: 25px;
+}
+
 .fcc-projects {
   display: flex;
 }
+
+.back-button {
+      background-color: gold;
+      color: #333333;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 60px;
+    }
+
+.back-button:hover {
+      background-color: lightgray;
+      color: #333333;
+      border-radius: 60px;
+    }
 
 /* Cursor Property Shenanigans */
 
@@ -135,19 +158,5 @@ p {
   .url-c {cursor: url(freecodecamp/icons8-sign-language-c-50.cur),auto;
     text-decoration: none;}
 
-    /* You stay CLASSy, San Diego! */
 
-    .back-button {
-      background-color: gold;
-      color: #333333;
-      padding: 15px 25px;
-      text-decoration: none;
-      border-radius: 60px;
-    }
-
-    .back-button:hover {
-      background-color: lightgray;
-      color: #333333;
-      border-radius: 60px;
-    }
 
