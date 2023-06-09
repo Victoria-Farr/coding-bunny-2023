@@ -87,6 +87,10 @@ p {
   display: flex;
 }
 
+.fcc-projects img {
+  max-width: 300px;
+}
+
 .back-button {
       background-color: gold;
       color: #333333;
