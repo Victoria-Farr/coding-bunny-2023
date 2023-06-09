@@ -71,8 +71,12 @@ p {
   span a {
     color: magenta;
   }
+
+  .courses {
+    display: flex;
+  }
   
-/* Cursor Property Fun */
+/* Cursor Property Shenanigans */
 
 .alias {
     cursor: alias;
