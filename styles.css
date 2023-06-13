@@ -69,10 +69,16 @@ p {
     color: magenta;
   }
 
-/* CLASSES */
+/* Skillcrush page */
 .baby-coding-bunny {
   background-color: #fff2e6;
 }
+
+.skillcrush-projects {
+  background-color: white;
+}
+
+/* ---- */
 
 .courses {
   display: flex;
