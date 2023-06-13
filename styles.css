@@ -80,6 +80,13 @@ p {
   margin-right: 25px;
 }
 
+.skillcrush-projects h2 {
+  color: #d2a679;
+  font-weight: 900;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
 /* HOME (index.html) CLASSES */
 
 .courses {
