@@ -65,10 +65,6 @@ p {
     line-height: 35px;
   }
 
-  span a {
-    color: #996633;
-  }
-
 /* Skillcrush page */
 .baby-coding-bunny {
   background-color: #fff2e6;
@@ -81,7 +77,11 @@ p {
   max-width: 900px;
 }
 
-/* HOME (index.html) */
+span a {
+  color: #996633;
+}
+
+/* HOME (index.html) CLASSES */
 
 .courses {
   display: flex;
@@ -95,6 +95,8 @@ p {
   margin-right: 25px;
 }
 
+/* FREE CODE CAMP PAGE CLASSES */
+
 .fcc-projects {
   display: flex;
   margin-top: 100px;
@@ -106,7 +108,7 @@ p {
   gap: 50px;
 }
 
-/* GLOBAL */
+/* GLOBAL CLASSES */
 
 .back-button {
       background-color: gold;
