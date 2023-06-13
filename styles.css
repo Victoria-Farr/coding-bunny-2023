@@ -81,7 +81,7 @@ p {
   max-width: 900px;
 }
 
-/* ---- */
+/* HOME (index.html) */
 
 .courses {
   display: flex;
@@ -105,6 +105,8 @@ p {
   max-width: 400px;
   gap: 50px;
 }
+
+/* GLOBAL */
 
 .back-button {
       background-color: gold;
