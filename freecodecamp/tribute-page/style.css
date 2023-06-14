@@ -25,12 +25,23 @@ h3 {
     color: #43343B;
 }
 
+img {
+    display: block;
+    height: auto;
+}
+
 p {
     font-size: 1.2em;
 }
+
+/* Classes */
 
 .bold-text {
     font-family: 'IM Fell English SC', serif;
     color: #FF4B00;
     font-size: 2em;
+}
+
+.image {
+    max-width: 100%;
 }
