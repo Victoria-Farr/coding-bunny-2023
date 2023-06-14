@@ -8,21 +8,23 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
-	        <title>Tribute Page Project: Grace White Sherwood</title>
+	        <title id="title">Tribute Page Project: Grace White Sherwood</title>
 	</head>
 	
     <body>
 	<header>
 		<h1>Grace White Sherwood</h1>
-		<h2>In the 1700's...it was just easier to call her a witch.</h2>
+		<h2 id="tribute-info">In the 1700's...it was just easier to call her a witch.</h2>
 	</header>
 
 	<main id="main">
-		<img src="woman-silhouette.jpg" alt="Silhouette of woman standing on beach" width="50%">
-		<!-- Image caption? -->
-	</div>
+		<div id="img-div">
+			<img src="woman-silhouette.jpg" alt="Silhouette of woman standing on beach" width="50%" id="image">
+			<div id="img-caption">We don't have any images of Grace, her face is lost to history-but her story lives on!</div>
+		</div>
 
-	<div class="TBD"><!-- Div Class? -->
+	<!-- and #tribute-link should all be descendants of #main.-->
+
 		<h3>She was know as the “Witch of Pungo.”</h3> 
 		<h3>Because crops and livestock never, ever, die on their own.</h3>
 		<h3>Like, ever.</h3>
@@ -71,7 +73,7 @@
 			<p><span class="bold-text">2006</span> - On the 300th anniversary of Sherwood's conviction, Governor Tim Kaine granted an informal pardon to "officially restore [her] good name", recognizing that she was wrongfully convicted.</p>
 			<p>A statue depicting her was erected near Sentara Independence on Independence Boulevard in Virginia Beach, close to the site of the colonial courthouse where she was tried. She is sculpted alongside a raccoon, representing her love of animals, and carrying a basket containing garlic and rosemary, in recognition of her knowledge of herbal healing.</p>
 
-	<p>Information via Wikipedia: <a href="https://en.wikipedia.org/wiki/Grace_Sherwood"> Grace W. Sherwood</a></p>
+	<div><p>Information via Wikipedia: <a href="https://en.wikipedia.org/wiki/Grace_Sherwood" id="tribute-link" target="_blank"> Grace W. Sherwood</a></p></div>
 
 	</div>
 </main>
