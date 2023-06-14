@@ -21,3 +21,9 @@ h3 {
 p {
     font-size: 1.2em;
 }
+
+.bold-text {
+    font-family: 'IM Fell English SC', serif;
+    color: #FF4B00;
+    font-size: 2em;
+}
