@@ -1,9 +1,10 @@
 img {
-	display: block;
-	height: auto;
+    max-width: 600px;
 }
 
+/* required for code FCC submit/user stories
 #image {
 	height: auto;
 	max-width: 100%;
 }
+*/
