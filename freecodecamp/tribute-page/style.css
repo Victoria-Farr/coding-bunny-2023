@@ -1,47 +1,9 @@
-* {
-    background-color: #E7BFAD;
-}
-
-h1, h2, p {
-    font-family: 'IM Fell English', serif;
-    color: #43343B;
-}
-
-h1 {
-    font-size: 3em;
-    text-align: center;
-}
-
-h2 {
-    font-size: 2.5em;
-    font-style: italic;
-    text-align: center;
-    color: #FF4B00;
-}
-
-h3 {
-    font-family: 'IM Fell English SC', serif;
-    font-size: 2em;
-    color: #43343B;
-}
-
 img {
-    display: block;
-    height: auto;
+	display: block;
+	height: auto;
 }
 
-p {
-    font-size: 1.2em;
-}
-
-/* Classes */
-
-.bold-text {
-    font-family: 'IM Fell English SC', serif;
-    color: #FF4B00;
-    font-size: 2em;
-}
-
-.image {
-    max-width: 100%;
+#image {
+	height: auto;
+	max-width: 100%;
 }
