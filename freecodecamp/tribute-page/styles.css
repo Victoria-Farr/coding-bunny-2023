@@ -6,10 +6,12 @@ body {
 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
 
 h2 {
     font-size: 32px;
+    text-align: center;
 }
 
 h3 {
@@ -22,7 +24,14 @@ p {
 }
 
 img {
+    display: flex;
     max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
 }
 
 /* required for code FCC submit/user stories
@@ -31,3 +40,4 @@ img {
 	max-width: 100%;
 }
 */
+
