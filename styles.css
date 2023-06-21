@@ -92,6 +92,11 @@ p {
   text-transform: uppercase;
 }
 
+/* About projects page */
+.about-page {
+  background-color: lavender;
+}
+
 /* HOME (index.html) CLASSES */
 
 .courses {
