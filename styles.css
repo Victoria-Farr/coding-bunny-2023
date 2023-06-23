@@ -180,6 +180,14 @@ nav a:hover {
 
 /* FREE CODE CAMP PAGE CLASSES */
 
+.fcc {
+  background-color: lavender;
+}
+
+.fcc a {
+  color: purple;
+}
+
 .fcc-projects {
   display: flex;
   margin-top: 100px;
