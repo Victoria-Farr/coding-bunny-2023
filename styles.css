@@ -121,8 +121,9 @@ nav a:hover {
 
 .skillcrush-archive-projects {
   display: flex;
-  margin-top: 50px;
-  max-width: 950px;
+  margin: 100px;
+  padding: 50px;
+  width: auto;
   flex-wrap: wrap;
   background-color: white;
   border: 1px solid black;
@@ -130,8 +131,17 @@ nav a:hover {
 
 .skillcrush-archive-projects img {
     max-width: 400px;
-    gap: 50px;
+    gap: 40px;
   }
+
+.skillcrush-archive-projects figure {
+  max-width: 400px;
+}
+
+.skillcrush-archive-projects figcaption {
+  font-size: .8em;
+  text-align: center;
+}
 
 /* About projects page */
 .about-page {
