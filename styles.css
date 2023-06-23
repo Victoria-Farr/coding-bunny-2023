@@ -46,6 +46,13 @@ h3 {
     font-size: 2em;
 }
 
+h4 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 50px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 hr {
   border: 2px dotted black;
@@ -121,7 +128,7 @@ nav a:hover {
 
 .skillcrush-archive-projects {
   display: flex;
-  margin: 100px;
+  margin: 80px 100px;
   padding: 50px;
   width: auto;
   flex-wrap: wrap;
