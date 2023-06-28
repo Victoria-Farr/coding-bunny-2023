@@ -160,11 +160,6 @@ nav a:hover {
   gap: 50px;
 }
 
-.exercises.ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 /* SKILLCRUSH PROJECTS ------------------ */
 .baby-coding-bunny {
   background-color: #fff2e6;
