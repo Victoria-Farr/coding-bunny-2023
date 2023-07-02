@@ -149,17 +149,6 @@ nav a:hover {
   color: purple;
 }
 
-.fcc-projects {
-  display: flex;
-  margin-top: 100px;
-  flex-wrap: wrap;
-}
-
-.fcc-projects img {
-  max-width: 400px;
-  gap: 50px;
-}
-
 /* SKILLCRUSH PROJECTS ------------------ */
 .baby-coding-bunny {
   background-color: #fff2e6;
