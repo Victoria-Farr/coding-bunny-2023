@@ -1,21 +1,22 @@
-html,
 body {
-  min-width: 290px;
-  color: #000066;
   background-color: #e6e6ff;
+  color: #000066;
   font-family: 'Barlow', sans-serif;
-  line-height: 1.5;
+  line-height: 1.5em;
+  min-width: 300px;
 }
 
 #navbar {
+  border-right: solid;
+  border-color: #ccccff;
+  height: 100%;
   position: fixed;
   min-width: 300px;
   top: 0px;
   left: 0px;
   width: 300px;
-  height: 100%;
-  border-right: solid;
-  border-color: #ccccff;
+  
+  
 }
 
 header {
