@@ -1,6 +1,6 @@
 body {
   background-color: #fff1e6;
-  color: #000066;
+  color: #1a0b00;
   font-family: 'Barlow', sans-serif;
   line-height: 1.5em;
   min-width: 300px;
@@ -21,7 +21,7 @@ body {
 
 header {
   color: #ff4000;
-  margin: 10px;
+  margin: 25px;
   text-align: center;
   font-size: 1.7em;
   font-weight: bold;
