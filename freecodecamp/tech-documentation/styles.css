@@ -20,11 +20,15 @@ body {
 }
 
 header {
-  color: #000066;
+  color: #ff4000;
   margin: 10px;
   text-align: center;
   font-size: 1.7em;
   font-weight: bold;
+}
+
+h2 {
+  color:#ff4000;
 }
 
 #main-doc header {
