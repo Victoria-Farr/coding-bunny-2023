@@ -7,8 +7,8 @@ body {
 }
 
 #navbar {
-  border-right: solid;
-  border-color: #ccccff;
+  border-right: 1px dotted;
+  border-color: #ff6d01;
   height: 100%;
   min-width: 320px;
   position: fixed;
