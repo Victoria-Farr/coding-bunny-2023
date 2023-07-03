@@ -10,10 +10,10 @@ body {
   border-right: solid;
   border-color: #ccccff;
   height: 100%;
+  min-width: 320px;
   position: fixed;
-  min-width: 300px;
-  top: 0px;
   left: 0px;
+  top: 0px;
   width: 300px;
   
   
