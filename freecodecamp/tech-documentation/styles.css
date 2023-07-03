@@ -1,5 +1,5 @@
 body {
-  background-color: #e6e6ff;
+  background-color: #fff1e6;
   color: #000066;
   font-family: 'Barlow', sans-serif;
   line-height: 1.5em;
@@ -23,8 +23,8 @@ header {
   color: #000066;
   margin: 10px;
   text-align: center;
-  font-size: 1.8em;
-  font-weight: thin;
+  font-size: 1.7em;
+  font-weight: bold;
 }
 
 #main-doc header {
