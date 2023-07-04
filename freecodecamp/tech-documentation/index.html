@@ -22,12 +22,12 @@
           <li><a class="nav-link" href="#Markup">Markup</a></li>
           <li><a class="nav-link" href="#Elements">Elements</a></li>
           <li><a class="nav-link" href="#Delivery">Delivery</a></li>
-          <li><a class="nav-link" href="#">8</a></li>
-          <li><a class="nav-link" href="#">9</a></li>
-          <li><a class="nav-link" href="#">10</a></li>
-          <li><a class="nav-link" href="#">8</a></li>
-          <li><a class="nav-link" href="#">8</a></li>
-          <li><a class="nav-link" href="#">8</a></li>
+          <li><a class="nav-link" href="#Naming_conventions">Naming conventions</a></li>
+          <li><a class="nav-link" href="#HTML_Application">HTML Application</a></li>
+          <li><a class="nav-link" href="HTML4_variations">HTML4 variations</a></li>
+          <li><a class="nav-link" href="#WHATWG_HTML_versus_HTML5">WHATWG HTML versus HTML5</a></li>
+          <li><a class="nav-link" href="#WYSIWYG_editors">WYSIWYG editors</a></li>
+          <li><a class="nav-link" href="#See_also">See also</a></li>
           <li><a class="nav-link" href="Credits">Credits</a></li>
         </ul>
     
@@ -102,13 +102,43 @@
         <header>Delivery</header>
           <p>HTML documents can be delivered by the same means as any other computer file. However, they are most often delivered either by HTTP from a web server or by email.</p>
 
-        <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
-        <code>if (true) { var x = 5; } console.log(x); // 5</code>
+          <p>HTTP: The World Wide Web is composed primarily of HTML documents transmitted from web servers to web browsers using the Hypertext Transfer Protocol (HTTP). However, HTTP is used to serve images, sound, and other content, in addition to HTML. To allow the web browser to know how to handle each document it receives, other information is transmitted along with the document. This meta data usually includes the MIME type (e.g., text/html or application/xhtml+xml) and the character encoding (see Character encoding in HTML).</p>
+          
+          <p>HTML e-mail: Most graphical email clients allow the use of a subset of HTML (often ill-defined) to provide formatting and semantic markup not available with plain text. This may include typographic information like colored headings, emphasized and quoted text, inline images and diagrams. Many such clients include both a GUI editor for composing HTML e-mail messages and a rendering engine for displaying them. Use of HTML in e-mail is criticized by some because of compatibility issues, because it can help disguise phishing attacks, because of accessibility issues for blind or visually impaired people, because it can confuse spam filters and because the message size is larger than plain text.</p>
+
+        <!--<code>if (true) { var x = 5; } console.log(x); // 5</code>
         <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
         <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-not defined</code>
-
+not defined</code>-->
     </section>
+
+    <section class="main-section" id="Naming_conventions">
+      <p>The most common filename extension for files containing HTML is .html. A common abbreviation of this is .htm, which originated because some early operating systems and file systems, such as DOS and the limitations imposed by FAT data structure, limited file extensions to three letters.</p>
+    </section>
+    
+    <section class="main-section" id="HTML_Application">
+      <p>An HTML Application (HTA; file extension .hat) is a Microsoft Windows application that uses HTML and Dynamic HTML in a browser to provide the application's graphical interface. A regular HTML file is confined to the security model of the web browser's security, communicating only to web servers and manipulating only web page objects and site cookies. An HTA runs as a fully trusted application and therefore has more privileges, like creation/editing/removal of files and Windows Registry entries. Because they operate outside the browser's security model, HTAs cannot be executed via HTTP, but must be downloaded (just like an EXE file) and executed from local file system.</p>
+    </section>
+    
+    <section class="main-section" id="HTML4_variations">
+      <p>Since its inception, HTML and its associated protocols gained acceptance relatively quickly.[by whom?] However, no clear standards existed in the early years of the language. Though its creators originally conceived of HTML as a semantic language devoid of presentation details, practical uses pushed many presentational elements and attributes into the language, driven largely by the various browser vendors. The latest standards surrounding HTML reflect efforts to overcome the sometimes chaotic development of the language and to create a rational foundation for building both meaningful and well-presented documents. To return HTML to its role as a semantic language, the W3C has developed style languages such as CSS and XSL to shoulder the burden of presentation. In conjunction, the HTML specification has slowly reined in the presentational elements.</p>
+    </section>
+    
+    <section class="main-section" id="WHATWG_HTML_versus_HTML5">
+      <p>The HTML Living Standard, which is developed by WHATWG, is the official version, while W3C HTML5 is no longer separate from WHATWG.</p>
+    </section>
+    
+    <section class="main-section" id="WYSIWYG_editors">
+      <p>There are some WYSIWYG editors (What You See Is What You Get), in which the user lays out everything as it is to appear in the HTML document using a graphical user interface (GUI), often similar to word processors. The editor renders the document rather than showing the code, so authors do not require extensive knowledge of HTML.</p>
+    </section>
+    
+    <section class="main-section" id="See_also">
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/HTML_character_references" target="_blank">HTML character references</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service" target="_blank">W3C HTML Validator</a></li>
+      </ul>
+    </section>
+    
 
     <section class="main-section" id="Credits">
         <header>Credits</header>
