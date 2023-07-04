@@ -13,15 +13,15 @@
 	<body>
     <nav id="navbar">
       
-      <header><img src="img/icons8-html-24px.svg">HTML5 Documentation</header>
+      <header>HTML5 Documentation</header>
         <ul>
           <li><a class="nav-link" href="#Intro">Intro</a></li>
-          <li><a class="nav-link" href="#Knowledge">Knowledge</a></li>
-          <li><a class="nav-link" href="#Javascript">Javascript</a></li>
-          <li><a class="nav-link" href="#Hello">Hello</a></li>
-          <li><a class="nav-link" href="#Variables">Variables</a></li>
-          <li><a class="nav-link" href="#Declaring">Declaring</a></li>
-          <li><a class="nav-link" href="#Scope">Scope</a></li>
+          <li><a class="nav-link" href="#History">History</a></li>
+          <li><a class="nav-link" href="#HTML5">HTML5</a></li>
+          <li><a class="nav-link" href="#Example">Example</a></li>
+          <li><a class="nav-link" href="#Markup">Markup</a></li>
+          <li><a class="nav-link" href="#Elements">Elements</a></li>
+          <li><a class="nav-link" href="#Delivery">Delivery</a></li>
         </ul>
     
     
@@ -32,61 +32,75 @@
       <section class="main-section" id="Intro">
         <header>Intro</header>
         <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
-        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects.</p>
+        <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.</p>
         
         <ul>
-          <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
-          <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+          <li>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets.</li>
+          <li>Som tags directly introduce content into the page. Other tags surround and provide information about document text and may include sub-element tags. Browsers do not display the HTML tags but use them to interpret the content of the page.</li>
         </ul>
       </section>
-      <section class="main-section" id="Knowledge">
-        <header>Knowledge</header>
-        <p>This guide assumes you have the following basic background:<p>
+      <section class="main-section" id="History">
+        <header>History</header>
+        <p>Some history about the development of HTML:<p>
           <ul>
-            <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
-            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
-            <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+            <li>In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes of 1990, Berners-Lee listed "some of the many areas in which hypertext is used"; an encyclopedia is the first entry.</li>
+            <li>The first publicly available description of HTML was a document called "HTML Tags", first mentioned on the Internet by Tim Berners-Lee in late 1991. It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by SGMLguid, an in-house Standard Generalized Markup Language (SGML)-based documentation format at CERN. Eleven of these elements still exist in HTML 4.</li>
+            <li>After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group. In 1995, this working group completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.</li>
           </ul>
       </section>
-      <section class="main-section" id="Javascript">
-        <header>Javascript</header>
-        <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
-        <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
-        <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
+
+      <section class="main-section" id="HTML5">
+        <header>HTML5</header>
+
+        <p>Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the World Wide Web Consortium (W3C).</p>
+        
+        <p>In 2000, HTML became an international standard (ISO/IEC 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001.</p>
+        
+        <p>In 2004, development began on HTML5 in the Web Hypertext Application Technology Working Group (WHATWG), which became a joint deliverable with the W3C in 2008, and was completed and standardized on 28 October 2014.</p>
+
       </section>
-      <section class="main-section" id="Hello">
-        <header>Hello</header>
-        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
-</p>
-<code>function greetMe(yourName) { alert("Hello " + yourName); }
-greetMe("World");</code>
+
+      <section class="main-section" id="Example">
+        <header>Example</header>
+        <p>The following is an example of the classic DOCTYPE tag:</p>
+          <code>< ! DOCTYPE html >
+          </code>
       </section>
-      <section class="main-section" id="Variables">
-        <header>Variables</header>
-        <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
-        <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
-        <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+
+      <section class="main-section" id="Markup">
+        <header>Markup</header>
+        <p>HTML markup consists of several key components, including those called tags (and their attributes), character-based data types, character references and entity references. </p>
+        <p>HTML tags most commonly come in pairs, although some represent empty elements and so are unpaired, for example. The first tag in such a pair is the start tag, and the second is the end tag (they are also called opening tags and closing tags).</p>
+        <p>Another important component is the HTML document type declaration, which triggers standards mode rendering.</p>
       </section>
-    <section class="main-section" id="Declaring">
-        <header>Declaring</header>
-        <p>You can declare a variable in three ways:</p>
-        <p>With the keyword var. For example,</p>
-        <code>var x = 42.</code>
-        <p>This syntax can be used to declare both local and global variables.</p>
-        <code>x = 42.</code>
-        <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
-        <p>With the keyword let. For example,</p>
-        <code>let y = 13.</code>
-        <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
+
+    <section class="main-section" id="Elements">
+        <header>Elements</header>
+        <p>HTML documents imply a structure of nested HTML elements.</p>
+        <p>These are indicated in the document by HTML tags, enclosed in angle brackets thus:</p>
+        <code>< p ></code>
+
+        <p>In the simple, general case, the extent of an element is indicated by a pair of tags: a "start tag" and "end tag."</p>
+        <p>The text content of the element, if any, is placed between these tags:</p>
+        <code>< p > content < / p ></code>
+
+        <p>Tags may also enclose further tag markup between the start and end, including a mixture of tags and text. This indicates further (nested) elements, as children of the parent element.</p>
+        <p>The start tag may also include the element's attributes within the tag. These indicate other information, such as identifiers for sections within the document, identifiers used to bind style information to the presentation of the document, and for some tags such as the <img> used to embed images, the reference to the image resource in the format like this:</p>
+        <code>< img src="example.com/example.jpg" ></code>
+
+        <p>Many tags, particularly the closing end tag for the very commonly used paragraph element < p >, are optional. </p>
     </section>
-    <section class="main-section" id="Scope">
-        <header>Scope</header>
-        <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
+
+    <section class="main-section" id="Delivery">
+        <header>Delivery</header>
+          <p>HTML documents can be delivered by the same means as any other computer file. However, they are most often delivered either by HTTP from a web server or by email.</p>
+          
         <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
         <code>if (true) { var x = 5; } console.log(x); // 5</code>
         <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
         <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
 not defined</code>
+
     </section>
 
       <footer>
