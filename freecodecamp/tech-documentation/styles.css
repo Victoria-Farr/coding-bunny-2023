@@ -8,29 +8,21 @@ body {
 }
 
 code {
-  display: block;
-  text-align: left;
-  white-space: pre-line;
-  position: relative;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 2;
   background-color: #ffffff;
-  padding: 20px;
-  margin: 10px;
   border-radius: 3px;
+  display: block;
+  line-height: 1.5em;
+  margin: 15px;
+  padding: 20px;
+  position: relative;
+  text-align: left;
 }
 
 header {
   color: #ff4000;
-  margin: 25px;
-  text-align: center;
   font-size: 1.7em;
   font-weight: bold;
-}
-
-section li {
-  margin: 20px 0px 0px 20px;
+  margin: 25px;  
 }
 
 /* ----- NAVBAR STYLING ----- */
@@ -38,18 +30,18 @@ section li {
   border-right: 1px dotted;
   border-color: #ff6d01;
   height: 100%;
+  left: 0px;
   min-width: 320px;
   position: fixed;
-  left: 0px;
   top: 0px;
   width: 300px;
 }
 
 #navbar ul {
-  height: 88%;
-  padding: 0;
-  overflow-y: auto;
+  height: 90%;
+  padding: 5px;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #navbar li {
@@ -61,11 +53,10 @@ section li {
 }
 
 #navbar a {
+  color: #333333;
   display: block;
   padding: 10px 25px;
-  color: #333333;
   text-decoration: none;
-  cursor: pointer;
 }
 
 #navbar a:hover {
@@ -74,45 +65,50 @@ section li {
 
 /* ----- MAIN DOCUMENT STYLING ----- */
 #main-doc {
+  margin-left: 300px;
+  margin-bottom: 100px;
+  padding: 25px;
   position: absolute;
-  margin-left: 310px;
-  padding: 20px;
-  margin-bottom: 110px;
 }
 
-#main-doc header {
-  text-align: left;
-  margin-bottom: 25px;
+#main-doc li {
+  margin-bottom: 20px;
+}
+
+#main-doc p {
+  margin-left: 25px;
 }
 
 /* ----- MOBILE STYLING ----- */
 @media only screen and (max-width: 750px) {
-  #navbar ul {
-    border: 1px solid;
-    height: 207px;
+  #main-doc {
+    margin-left: 0px;
+    margin-top: 250px;
+    position: relative;
+  }
+
+  #main-doc header {
+    padding-top: 10px;
   }
 
   #navbar {
-    background-color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 300px;
     position: absolute;
     top: 0;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-height: 275px;
-    border: none;
     z-index: 1;
-    border-bottom: 2px solid;
   }
 
-  #main-doc {
-    position: relative;
-    margin-left: 0px;
-    margin-top: 250px;
+  #navbar ul {
+    border-bottom: 1px dotted #ff6d01;
+    height: 200px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
   #main-doc {
     margin-left: -10px;
   }
@@ -125,4 +121,4 @@ section li {
     padding-right: 45px;
     min-width: 200px;
   }
-}
+}*/
