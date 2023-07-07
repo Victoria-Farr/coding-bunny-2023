@@ -216,6 +216,8 @@ nav a:hover {
 
 .hey-bunny-page ul {
   background-color: white;
+  border: 1px solid black;
+  padding: 25px;
 }
 
 
