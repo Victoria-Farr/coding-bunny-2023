@@ -209,6 +209,11 @@ nav a:hover {
   text-align: center;
 }
 
+/* Sketchbook page Stylin' */
+.sketchbook {
+  background-color: #e1ccc2;
+}
+
 /* Hey bunny hey ----------------- */
 .hey-bunny-page {
   background-color: #E8F5CD;
