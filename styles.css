@@ -214,6 +214,13 @@ nav a:hover {
   background-color: #e1ccc2;
 }
 
+video {
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100;
+  border-bottom-left-radius: 100;
+}
+
 /* Hey bunny hey ----------------- */
 .hey-bunny-page {
   background-color: #E8F5CD;
