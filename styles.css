@@ -214,6 +214,10 @@ nav a:hover {
   background-color: #fbeaf0;
 }
 
+.sketchbook a {
+  color: #c0265c;
+}
+
 video {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
