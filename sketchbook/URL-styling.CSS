@@ -1,5 +1,6 @@
 body {
-  background-image: url(pexels-ron-lach-10526880.jpg);
+    background-image: url(pexels-ron-lach-10526880.jpg);
+    background-repeat: no-repeat;
     background-color: #f2f2f2;
     font-family: 'Azeret Mono', monospace;
     font-size: 1.5em;
@@ -7,7 +8,7 @@ body {
 }
 
 a:hover {
-    color: pink;
+    color: purple;
 }
 
 p {
@@ -48,4 +49,14 @@ h1 {
 
   section {
     margin-top: 100px;
+  }
+
+  hr {
+    height: 3px;
+    color: black;
+    margin-bottom: 25px;
+  }
+
+  nav a {
+    margin-right: 25px;
   }
