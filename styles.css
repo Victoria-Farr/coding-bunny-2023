@@ -100,6 +100,7 @@ nav {
 
 nav a {
   padding-right: 15px;
+  color: black;
 }
 
 nav a:link {
@@ -108,8 +109,8 @@ nav a:link {
 }
 
 nav a:hover {
-    color: black;
-    background-color: gold;
+    color: magenta;
+    background-color: #f2f2f2;
 }
 
 /* HOME/GLOBAL CLASSES */
