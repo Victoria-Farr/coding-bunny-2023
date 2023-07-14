@@ -3,6 +3,26 @@
     font-family: 'Instrument Sans', sans-serif;
 }
 
-/* classes */
+h1 {
+    color: #E81E61;
+    font-size: 50px;
+    font-weight: 700;
+}
 
+h2 {
+    color: #E81E61;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+p {
+    color: #E81E61;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none; 
+}
+/* classes */
 
