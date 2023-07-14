@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(253, 232, 239, 0.2);
+    background-color: white;
     font-family: 'Instrument Sans', sans-serif;
 }
 
@@ -15,7 +15,14 @@ h2 {
     font-weight: 500;
 }
 
+h3 {
+    color:#E81E61;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 p {
+    background-color: transparent;
     color: #E81E61;
     font-size: 18px;
     font-weight: 400;
