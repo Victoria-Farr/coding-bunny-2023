@@ -55,6 +55,10 @@ nav a:hover{
 ul {
     list-style-type: none; 
 }
+
+video {
+    margin: 50px auto;
+}
 /* classes */
 .product-name {
     background: #FF9899;
