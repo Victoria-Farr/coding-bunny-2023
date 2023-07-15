@@ -24,10 +24,10 @@ h3 {
 
 h4 {
     background: #FF9899;
-font-size: 1.25rem;
-font-weight: 500;
-line-height: normal;
-text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
 }
 
 p {
@@ -54,7 +54,14 @@ nav a:hover{
 
 ul {
     list-style-type: none; 
+    display: flex;
+    flex-direction: row;
 }
+
+li {
+    padding-right: 75px;
+}
+
 
 /* classes */
 .body-main {
@@ -62,8 +69,33 @@ ul {
     margin-right: auto;
     max-width: 1440px;
     padding: 100px;
-    background-color: pink;
 }
+
+.header-nav {
+    display: flex;
+    width: 90rem;
+    padding: 3.125rem 80.625rem 0rem 6.25rem;
+    align-items: center; 
+}
+
+.hundred-px-image {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+
+.ing-ship-hassle-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.ing-ship-hassle-info-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
 .product-name {
     background: #FF9899;
     width: 21.875rem;
@@ -104,6 +136,7 @@ gap: 0.625rem;
     height: 540px;
     margin: 100px auto;
 }
+
 
 /* IDs */
 #button-style {
