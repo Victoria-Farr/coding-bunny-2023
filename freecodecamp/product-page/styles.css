@@ -3,6 +3,14 @@
     font-family: 'Instrument Sans', sans-serif;
 }
 
+fieldset {
+    border: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -150,9 +158,9 @@ gap: 0.625rem;
 #button-style {
     background: #FF9899;
     display: inline-flex;
-padding: 0.625rem;
-align-items: flex-start;
-gap: 0.625rem;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
 }
 
 #footer-links a {
@@ -177,41 +185,25 @@ gap: 0.625rem;
     line-height: normal;
 }
 
-#product-1 {
+#product-1, #product-2, #product-3 {
     border: 1px solid #000;
     display: flex;
-width: 21.875rem;
-height: 21.875rem;
-padding: 1.25rem;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 1rem;
-flex-shrink: 0;
+    width: 21rem;
+    height: 19rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .60rem;
+    flex-shrink: 0;
+    margin-bottom: 5rem;
 }
 
-#product-2 {
-    border: 1px solid #000;
-    display: flex;
-width: 21.875rem;
-height: 21.875rem;
-padding: 1.25rem;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 1.875rem;
-flex-shrink: 0;
+#sourcing {
+    margin-bottom: 100px;
 }
 
-#product-3 {
-    border: 1px solid #000;
-    display: flex;
-width: 21.875rem;
-height: 21.875rem;
-padding: 1.25rem;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 1.875rem;
-flex-shrink: 0;
+#copyright-info {
+    text-align: center;
+    margin-top: 50px;
 }
