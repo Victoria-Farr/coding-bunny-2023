@@ -1,3 +1,38 @@
+/* Elements */
+
 body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: 'Azeret Mono', monospace;
+	background: linear-gradient(#fff, #b6d7e2);
+	color: #1d3e49;
 }
+
+a:link {
+	color: #ff593c;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ff7eb8;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff2600;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+img {
+	height: 350px;
+}
+
+/* Classes */
+
+/* IDs */
