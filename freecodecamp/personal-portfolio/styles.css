@@ -36,3 +36,16 @@ img {
 /* Classes */
 
 /* IDs */
+#welcome-section {
+	display: flex;
+	flex-direction: row;
+}
+
+#credits {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Media queries */
+
+/* Hey, your media query could be to change all flex-directions from "row" to "columns" ! */
