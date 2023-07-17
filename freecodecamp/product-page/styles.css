@@ -122,7 +122,7 @@ li {
 .product-options {
     display: flex;
     flex-direction: row;
-    gap: 1.88rem;
+    gap: 1rem;
 }
 .product-price {
     color: #000;
@@ -133,18 +133,18 @@ li {
 
 .product-description {
     color: #000;
-font-size: 1rem;
-font-weight: 400;
-line-height: normal;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .select {
     background: #000;
     color: white;
     display: flex;
-padding: 0.625rem;
-align-items: flex-start;
-gap: 0.625rem;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
 }
 
 .video-content {
@@ -188,8 +188,8 @@ gap: 0.625rem;
 #product-1, #product-2, #product-3 {
     border: 1px solid #000;
     display: flex;
-    width: 21rem;
-    height: 19rem;
+    width: 20rem;
+    height: 18rem;
     padding: 1rem;
     flex-direction: column;
     justify-content: center;
