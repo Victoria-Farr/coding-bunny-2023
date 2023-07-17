@@ -9,6 +9,30 @@ body {
 	color: #1d3e49;
 }
 
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: white;
+	padding: .5em;
+	display: flex;
+	flex-direction: row;
+  }
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+nav li {
+	padding-right: 1em;
+}
+
 a:link {
 	color: #ff593c;
 	text-decoration: none;
@@ -29,23 +53,71 @@ a:active {
 	text-decoration: underline;
 }
 
-img {
-	height: 350px;
+/* Classes */
+.projects {
+	padding: 4rem 0;
 }
 
-/* Classes */
+  .project-tile ul {
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+  }
+
+  .project-tile img {
+	width: 400px;
+  }
+
 
 /* IDs */
-#welcome-section {
-	display: flex;
-	flex-direction: row;
-}
-
 #credits {
 	display: flex;
 	flex-direction: row;
 }
 
+#credits-text {
+	padding: 50px;
+}
+
+#credit-image img{
+	height: 300px;
+	padding-top: 50px;
+}
+
+#logo-style {
+	color:#1d3e49;
+	font-size: 1.5em;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+#navbar {
+	padding-left: 200px;
+}
+
+#welcome-section {
+	display: flex;
+	flex-direction: row;
+	margin-top: 200px;
+}
+
+#welcome-section-image img {
+	height: 350px;
+}
+
+
+
+
 /* Media queries */
 
-/* Hey, your media query could be to change all flex-directions from "row" to "columns" ! */
+
+
+@media (max-width: 800px) {
+	.project-tile {
+	  flex-direction: column;
+	}
+  }
+
+
+
+*/
